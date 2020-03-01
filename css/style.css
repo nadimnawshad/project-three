@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{}
+img{
+    max-width: 100%;
+}
+header{
+    box-shadow: 0 0 15px #d873399c;
+    background: #000000b8;
+}
+header nav{}
+header nav ul{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+header nav ul li{
+    /* color: orange; */
+    list-style-type: none;
+}
+header nav ul li a{
+    color: orange;
+    text-decoration: none;
+    padding: 0 19px;
+    display: block;
+    text-transform: capitalize;
+}
+header nav ul li a img{
+    max-width: 60px;
+    padding-top: 2px;
+}
+.formSection{
+    background-color: #ffffff75;
+    background-blend-mode: lighten;
+    opacity: 1;
+    background-image: url(../images/background.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 60px 0;
+}
+.form-box{
+    width: 650px;
+    margin: auto;
+    text-align: center;
+}
+ h1{
+    color: #ff9c2e;
+    font-size: 30px;
+}
+ p{
+    color: #ff9c2e;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+ form{
+    text-align: left;
+    margin-top: 50px;
+}
+
+input[type= "text"],
+input[type= "email"],
+input[type= "password"],
+input[type= "file"]
+{
+    border: 1px solid #ffa500;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 14px;
+    width: 100%;
+    background-color: #f9f5ee;
+    color: black;
+}
+input[type= "text"],
+input[type= "email"],
+input[type= "password"],
+input[type= "file"]
+:hover{
+}
+
+input[type= "file"]{
+	cursor: pointer;
+	margin-bottom: 0;
+}
+input[type=	"submit"]{
+	padding: 10px 40px;
+	margin-top: 15px;
+	background-color: #f9f5ee;
+	display: block;
+	border: 1px solid orange;
+}
+input[type= "radio"],input[type="checkbox"]{
+	margin-right: 10px;
+	cursor: pointer;
+}
+span{
+   font-size: 12px;
+   font-style: italic;
+
+
+}
+label{}
+label b{
+	
+font-size: 20px;
+	
+display: block;
+	
+padding-top: 20px;
+}
+
+input[type=	"submit"]:hover{
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid #474747;
+}
+input:focus{
+	outline: none;
+}
+::placeholder{
+	color: orange;
+}
+::selection{
+	background-color: #000000b8;
+}
